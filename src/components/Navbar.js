@@ -1,41 +1,21 @@
 import React from "react";
 import "../assets/main.css";
 import me from "../assets/me.png";
+import hng from "../assets/HNG.png";
 
 const Navbar = () => {
   return (
     <div className="header">
       <div className="logo">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <path
-            xmlns="http://www.w3.org/2000/svg"
-            d="M512 503.5H381.7a48 48 0 01-45.3-32.1L265 268.1l-9-25.5 2.7-124.6L338.2 8.5l23.5 67.1L512 503.5z"
-            fill="#0473ff"
-            data-original="#28b446"
-          />
-          <path
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#0473ff"
-            data-original="#219b38"
-            d="M361.7 75.6L265 268.1l-9-25.5 2.7-124.6L338.2 8.5z"
-          />
-          <path
-            xmlns="http://www.w3.org/2000/svg"
-            d="M338.2 8.5l-82.2 234-80.4 228.9a48 48 0 01-45.3 32.1H0l173.8-495h164.4z"
-            fill="#0473ff"
-            data-original="#518ef8"
-          />
-        </svg>
+        <img src={hng} />
         Resume
       </div>
       <div className="header-menu">
-        <a href="/" className="active">
-          Home
+        <a href="https://zuri.team/" target="blank">
+          Zuri Team
         </a>
-        <a href="/about">About Me</a>
-        <a href="/resume">Resume</a>
-        <a href="/contact">Portfolio</a>
-        <a href="/contact">Contact Me</a>
+        <a href="https://training.zuri.team/" target="blank">Zuri Training</a>
+        <a href="https://internship.zuri.team/" target="blank">Zuri Internship</a>
       </div>
       <div className="user-settings">
         <a>
