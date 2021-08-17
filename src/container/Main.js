@@ -1,5 +1,8 @@
 import React from "react";
-import "../assets/style.css"
+import "../assets/style.css";
+import Experience from "./Experience";
+import Interest from "./Interest";
+import Skills from "./Skills";
 
 const Main = () => {
   return (
@@ -11,66 +14,11 @@ const Main = () => {
         <h2>Web Developer</h2>
       </div>
 
-      <div class="areaBox experience">
-        <h3>Experience</h3>
+      <Experience />
 
-        <div class="list">
-          <strong>Web Developer</strong>
-          <p>***abcd*** Pvt LTD - abc******, 123******</p>
-          <p>February 2019 - June 2020</p>
-        </div>
+      <Skills />
 
-        <div class="list">
-          <strong>Web Developer</strong>
-          <p>***abcdef*** Pvt LTD - abc******, 123******</p>
-          <p>September 2018 - February 2019</p>
-        </div>
-      </div>
-
-      <div class="areaBox skill">
-        <h3>Professional Skills</h3>
-
-        <div class="list p-90">
-          <strong>HTML5</strong>
-          <span></span>
-        </div>
-
-        <div class="list p-90">
-          <strong>CSS3</strong>
-          <span></span>
-        </div>
-
-        <div class="list p-80">
-          <strong>SCSS</strong>
-          <span></span>
-        </div>
-
-        <div class="list p-80">
-          <strong>JavaScript</strong>
-          <span></span>
-        </div>
-
-        <div class="list p-90">
-          <strong>Bootstrap</strong>
-          <span></span>
-        </div>
-
-        <div class="list p-50">
-          <strong>React JS</strong>
-          <span></span>
-        </div>
-      </div>
-
-      <div class="areaBox interests">
-        <h3>Interests</h3>
-
-        <div class="box">
-          <p>Coding</p>
-          <p>Typing</p>
-          <p>Gaming</p>
-          <p>Traveling</p>
-        </div>
-      </div>
+      <Interest />
 
       <div class="areaBox portfolio">
         <h3>Portfolio</h3>
