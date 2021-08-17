@@ -11,8 +11,8 @@ const Social = () => {
         <ul>
             <li><a href="https://github.com/olashina201" target="blank"><AiOutlineGithub style={{width: "200px"}} /></a></li>
             <li><a href="https://www.instagram.com/imsanketbodke/" target="blank"><FaInstagram /></a></li>
-            <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><FaLinkedinIn /></a></li>
-            <li><a href="https://codepen.io/sanketbodke"><FaTwitter /></a></li>
+            <li><a href="https://www.linkedin.com/in/quadri-sikiru-9634a5191/" target="blank"><FaLinkedinIn /></a></li>
+            <li><a href="https://codepen.io/sanketbodke" target="blank"><FaTwitter /></a></li>
         </ul>
     </div>
     )
