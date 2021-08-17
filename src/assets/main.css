@@ -204,88 +204,6 @@ body {
 	padding-top: 30px;
 }
 
-.alert {
-	background-color: var(--alert-bg-color);
-	padding: 24px 18px;
-	border-radius: 8px;
-}
-
-.alert-title {
-	font-size: 14px;
-	font-weight: 500;
-	margin-bottom: 8px;
-}
-
-.alert-subtitle {
-	font-size: 13px;
-	color: var(--subtitle-color);
-	line-height: 1.6em;
-	margin-bottom: 20px;
-}
-
-.alert input {
-	width: 100%;
-	padding: 10px;
-	display: block;
-	border-radius: 6px;
-	background-color: var(--header-bg-color);
-	border: none;
-	font-size: 13px;
-}
-
-.buttons {
-	border: none;
-	color: var(--button-color);
-	background-color: var(--active-color);
-    margin-left: 5px;
-	padding: 8px 10px;
-	border-radius: 10px;
-	font-size: 13px;
-	font-weight: 200;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-}
-
-
-.searched-jobs {
-    height: 90vh;
-    background: url("./me.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-	padding-left: 40px;
-}
-
-.title-block {
-    position: relative;
-    height: 100vh;
-    align-items: center;
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.title-block h2 {
-    color: rgb(194, 187, 187);
-    font-size: 70px;
-    text-align: center;
-}
-
-.title-block span {
-    color: rgb(194, 187, 187);
-    font-size: 40px;
-}
-
-.btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-
 @media screen and (max-width: 930px) {
 	.title-block {
 		grid-template-columns: repeat(1, 1fr);
@@ -430,20 +348,6 @@ body {
 }
 
 @media screen and (max-width: 380px) {
-	.explain-contents {
-		width: 100%;
-		margin: 0;
-	}
-
-	.explain-contents:nth-child(2) ~ .explain-contents {
-		margin: 0;
-		border: 0;
-	}
-
-	.wrapper {
-		padding: 20px;
-	}
-
 	.header {
 		padding: 0 20px;
 	}

@@ -15,7 +15,7 @@ const AboutMe = () => {
       <div class="contentArea">
         <p>
           I am a web developer with a good foundation in frontend design
-          technologies(HTML, CSS & JAVASCRIPT). I'm passionate about new
+          technologies (HTML, CSS & JAVASCRIPT). I'm passionate about new
           technology and always willing to learn. Growth is inevitable, which is
           why I am willing to have work experience so as to develop other skills
           that will contribute immensely to my growth.

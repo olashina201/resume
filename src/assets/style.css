@@ -236,7 +236,15 @@ body {
 .side_Right .areaBox.experience .list {
     font-size: 16px;
     margin: 40px auto;
+    display: flex;
+    flex-direction: row;
 }
+
+.list img{
+    width: 150px;
+    margin-right: 20px;
+}
+
 .side_Right .areaBox.experience .list strong {
     font-weight: bold;
     text-transform: uppercase;
