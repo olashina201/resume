@@ -29,12 +29,13 @@ const Navbar = () => {
         Resume
       </div>
       <div className="header-menu">
-        <a href="#" className="active">
+        <a href="/" className="active">
           Home
         </a>
-        <a href="#">About Me</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact Me</a>
+        <a href="/about">About Me</a>
+        <a href="/resume">Resume</a>
+        <a href="/contact">Portfolio</a>
+        <a href="/contact">Contact Me</a>
       </div>
       <div className="user-settings">
         <a>
