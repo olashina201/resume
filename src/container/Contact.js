@@ -1,29 +1,16 @@
 import React from "react";
-import "../assets/contact.css";
+import "../assets/style.css";
 
 const Contact = () => {
   return (
-    <div className="container">
-      <div className="content">
-        <div className="right-side">
-          <div className="topic-text">Send a message</div>
-          <form action="#">
-            <div className="input-box">
-              <input type="text" placeholder="Enter your name" />
-            </div>
-            <div className="input-box">
-              <input type="text" placeholder="Enter your email" />
-            </div>
-            <div className="input-text">
-              <textarea name="comment" rows="12" cols="120"></textarea>
-            </div>
-            <div className="button">
-              <input type="button" value="Send Now" />
-            </div>
-          </form>
-        </div>
+    <form action="#">
+        <input type="text" placeholder="Enter your name" />
+        <input type="text" placeholder="Enter your email" />
+        <textarea name="comment" rows="6" cols="30"></textarea>
+      <div className="button">
+        <button type="submit">Submit</button>
       </div>
-    </div>
+    </form>
   );
 };
 

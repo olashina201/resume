@@ -22,7 +22,7 @@ const Main = () => {
       <Interest />
 
       <div class="areaBox portfolio">
-        <h3>Portfolio</h3>
+        <h3>Contact</h3>
 
         <Contact />
       </div>
