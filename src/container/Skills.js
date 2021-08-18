@@ -30,7 +30,7 @@ const Skills = () => {
         <span></span>
       </div>
 
-      <div class="list p-50">
+      <div class="list p-70">
         <strong>React JS</strong>
         <span></span>
       </div>
