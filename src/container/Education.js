@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBookOpen } from "react-icons/fa";
+import { RiBookOpenLine } from "react-icons/ri";
 
 const Education = () => {
   return (
@@ -7,7 +7,7 @@ const Education = () => {
       <div class="title">
         <span>
           <em>
-            <FaBookOpen />
+            <RiBookOpenLine />
           </em>
         </span>
         <h3>Education</h3>

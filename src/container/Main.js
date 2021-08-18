@@ -10,7 +10,7 @@ const Main = () => {
     <div class="side_Right">
       <div class="profile_name">
         <h1>
-          <strong>Sikiru</strong> Quadri
+        <strong>Sikiru</strong> Quadri <strong>Olashina</strong>
         </h1>
         <h2>Web Developer</h2>
       </div>
