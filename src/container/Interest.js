@@ -6,8 +6,8 @@ const Interest = () => {
       <h3>Interests</h3>
 
       <div class="box">
-        <p>Coding</p>
-        <p>Typing</p>
+        <p>Learning</p>
+        <p>Reading</p>
         <p>Gaming</p>
         <p>Traveling</p>
       </div>

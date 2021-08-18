@@ -176,7 +176,7 @@ body {
         padding: 30px !important;
    }
     .main .side_Right .profile_name {
-        display: none !important;
+        display: none;
    }
     .main .side_Right .areaBox {
         margin: 50px auto !important;
@@ -404,4 +404,5 @@ button {
     margin-bottom: 10px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }

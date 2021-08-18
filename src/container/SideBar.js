@@ -9,6 +9,13 @@ import Social from "./Social";
 const SideBar = () => {
   return (
     <div class="side_left">
+      <div className="side-menu">
+        <a href="https://zuri.team/" target="blank">
+          Zuri Team
+        </a>
+        <a href="https://training.zuri.team/" target="blank">Zuri Training</a>
+        <a href="https://internship.zuri.team/" target="blank">Zuri Internship</a>
+      </div>
       <div class="profile">
         <img src={me} class="img-fluid" alt="Vishal Sondarva" />
       </div>
