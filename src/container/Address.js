@@ -23,7 +23,7 @@ const Address = () => {
             </em>
           </span>
           <h3>
-            <a href="#">+234 8136156937</a>
+            <a href="tel:08136156937">+234 8136156937</a>
           </h3>
         </div>
         <div class="contact-list">
@@ -33,7 +33,7 @@ const Address = () => {
             </em>
           </span>
           <h3>
-            <a href="#">olashina201@gmail.com</a>
+            <a href="mailto:olashina201@gmail.com">olashina201@gmail.com</a>
           </h3>
         </div>
         <div class="contact-list">
