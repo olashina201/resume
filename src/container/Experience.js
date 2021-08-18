@@ -8,7 +8,7 @@ const Experience = () => {
       <h3>Projects</h3>
 
       <div class="list">
-      <img src={ip} />
+      <img src={ip} alt="landing"  />
         <div>
           <strong>Ip Tracker</strong>
           <p><i><b>Develop with:</b></i> React JS</p>
@@ -18,7 +18,7 @@ const Experience = () => {
       </div>
 
       <div class="list">
-        <img src={manage} />
+        <img src={manage} alt="landing" />
         <div>
           <strong>Manage Landing Page</strong>
           <p><i><b>Develop with:</b></i> React JS</p>

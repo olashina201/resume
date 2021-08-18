@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="header">
       <div className="logo">
-        <img src={hng} />
+        <img src={hng} alt="landing"  />
         Resume
       </div>
       <div className="header-menu">
