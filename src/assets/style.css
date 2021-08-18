@@ -11,7 +11,6 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.18); */
 }
 .side_left {
     background-color: #e5f1ff;
@@ -82,9 +81,7 @@ body {
     overflow: hidden;
     padding: 12px;
 }
-.side_left .boxArea .title span em svg path {
-    fill: #fff;
-}
+
 .side_left .boxArea .title h3 {
     font-weight: bold;
     letter-spacing: 1px;
@@ -121,9 +118,7 @@ body {
     overflow: hidden;
     padding: 12px;
 }
-.side_left .boxArea.contact .contentArea .contact-list span em svg path {
-    fill: #fff;
-}
+
 .side_left .boxArea.contact .contentArea .contact-list h3 {
     font-size: 16px;
     font-weight: normal;
@@ -132,10 +127,7 @@ body {
 .side_left .boxArea.contact .contentArea .contact-list h3 a {
     color: #444;
 }
-.side_left .boxArea.education .title svg path {
-    fill: transparent;
-    color: white;
-}
+
 .side_left .boxArea.education .contentArea .education_fild {
     margin: 30px auto;
     font-size: 16px;
