@@ -24,7 +24,7 @@ const SideBar = () => {
         <h1>
           <strong>Sikiru</strong> Quadri <strong>Olashina</strong>
         </h1>
-        <h2>Web Designer</h2>
+        <h2>Web Developer</h2>
       </div>
       <AboutMe />
       <Address />
