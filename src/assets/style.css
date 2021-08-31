@@ -69,6 +69,7 @@ body {
 }
 .side_left .boxArea .title span {
     width: 80px;
+    color: #fff;
 }
 .side_left .boxArea .title span em {
     width: 50px;
@@ -80,6 +81,7 @@ body {
     justify-content: center;
     overflow: hidden;
     padding: 12px;
+    color: #fff;
 }
 
 .side_left .boxArea .title h3 {
